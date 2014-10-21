@@ -1,0 +1,99 @@
+Social Media Monitoring 
+========================================================
+transition: rotate
+
+![SMM](images/smm.jpg)
+
+## Lecture 3
+
+SM Monitoring: what for?
+========================================
+type: sub-section
+
+* SM as news source
+    * Civil journalism
+    * UGC
+* Marketing
+    * Brand monitoring
+    * Customers reviews
+    * Loyal audience
+    * Customers support
+
+Social Media - Brand Monitoring
+========================================
+
+More than a half takes into account internet reviews
+
+![FOM 1](images/fom01.png)
+
+Social Media - Brand Monitoring
+========================================
+
+More than a half takes into account internet reviews
+
+![FOM 2](images/fom02.png)
+
+Social Media - Brand Monitoring
+========================================
+
+But just a few authors produce reviews
+
+![FOM 3](images/fom03.png)
+
+Social Media - Brand Monitoring
+========================================
+## Fails:
+
+* [United Breaks Guitars](http://www.youtube.com/watch?v=5YGc4zOqozo): --$180,000,000 (10%)
+
+## and Wins:
+
+* Morton's Steakhouse and Piter Shankman: ~1M mentions in Twitter
+
+Social Media - News Monitoring
+=======================================
+
+* Disaster Response 
+
+    Red Cross Digital Ops: CRM system based on Radian6
+    
+* Media: UGC
+
+    You - Reporter, Ridus, etc.
+
+SM Monitoring at hand
+========================================
+type: sub-section
+
+* SM internal search tools
+* Yandex blogs
+
+SM Monitoring tools
+=======================================
+type: sub-section
+
+* IQBuzz
+* Brand Analytics
+* YouScan
+* Wobot
+* Babkee
+* Radian6
+* Lithium
+* Sysomos
+
+
+
+The End
+========================================================
+type: sub-section
+
+## Bonus Track
+
+[Lithium](http://www.lithium.com/products-solutions/social-media-management)
+
+* Every incoming social post is automatically routed.
+* Posts are scanned and assigned priorities.
+
+***
+
+![Lithium](images/lithium.png)

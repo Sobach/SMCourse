@@ -1,0 +1,299 @@
+Social Media Analytics 
+========================================================
+transition: rotate
+
+# Systems
+
+![SMA](images/sma_systems.jpg)
+
+## Lecture 2
+
+Internal Analytic Tools
+========================================
+type: sub-section
+
+* Facebook Insights (www.facebook.com/{your_page}/insights)
+* Twitter Analytics ([analytics.twitter.com](analytics.twitter.com))
+* Статистика страницы | ВКонтакте ([vk.com/stats?gid={page_id}](vk.com/stats?gid={page_id}))
+
+Facebook Insights - 1
+========================================
+
+## Overview
+
+![Facebook Insights 1](images/fb_insights01.png)
+
+Facebook Insights - 2
+========================================
+
+## Posts
+
+![Facebook Insights 2](images/fb_insights02.png)
+
+Additional engagement metric: `post clicks`
+
+Facebook Insights - 3
+========================================
+
+## Audience activity
+
+Only in aggregated form. But it's possible to try to estimate best posting time interval.
+
+![Facebook Insights 3](images/fb_insights03.png)
+
+P.S.: In VK it's possible to track every subscriber. But it's quite tricky.
+
+Facebook Insights - 4
+========================================
+
+## Timeline views
+
+Recall reach estimates from lecture 1?
+
+![Facebook Insights 4](images/fb_insights04.png)
+
+It's page with ~60k likes: 0,1% reaches timeline!
+
+Facebook Insights - 5
+========================================
+
+## Audience
+
+Only in aggregated form.
+
+![Facebook Insights 5](images/fb_insights05.png)
+
+The same audience categories are available for reached and engaged users.
+
+Facebook Insights - 6
+========================================
+
+## Export: download .xls or .csv and do the science!
+
+![Facebook Insights 6](images/fb_insights06.png)
+
+Twitter Analytics - 1
+========================================
+
+## Overview
+
+![Twitter Analytics 1](images/tw_analytics01.png)
+
+Impressions = Reach
+
+Twitter Analytics - 2
+========================================
+
+## Tweet by tweet overview
+
+![Twitter Analytics 2](images/tw_analytics02.png)
+
+Engagement = all possible actions 
+
+(RT, @, Favor, all types of links clicks)
+
+Twitter Analytics - 3
+========================================
+
+## Statistics for separate types of engagements
+
+Clicks are not separated. Use `Export` to explore full data .csv.
+
+![Twitter Analytics 3](images/tw_analytics03.png)
+![Twitter Analytics 4](images/tw_analytics04.png)
+
+Twitter Analytics - 4
+========================================
+
+## Audience
+
+![Twitter Analytics 6](images/tw_analytics06.png)
+
+Location, Gender, Interests (estimates)
+
+No age data.
+
+No export abilities.
+
+VK.com page statistics - 1
+========================================
+
+## Pages: Visitors, Reach, Activity
+
+![VK Stats 1](images/vkstats01.png)
+
+VK.com page statistics - 2
+========================================
+
+## A lot of info, but no stats for subscribers
+
+![VK Stats 2](images/vkstats03.png)
+
+VK.com page statistics - 2
+========================================
+
+## My favorite: .csv export
+
+![VK Stats 3](images/vkstats02.png)
+
+Third party Analytic Tools
+========================================
+type: sub-section
+
+* SocialBakers
+* Simply Measured
+* uberVU
+* Klout
+* Amplifr
+* Nippel
+* Gravity Tool
+
+SocialBakers - 1
+========================================
+
+![SocialBakers 1](images/social_bakers01.png)
+
+Detailed monitoring for: Facebook, Twitter, YouTube, VK
+
+Experimental reports for: Instagram, LinkedIn
+
+SocialBakers - 2
+========================================
+
+PTA-like measurement
+
+![SocialBakers 2](images/social_bakers02.png)
+
+SocialBakers - 3
+========================================
+
+Date-Time estimations
+
+![SocialBakers 3](images/social_bakers03.png)
+
+Data for every plot could be exported to .csv
+
+SocialBakers - 4
+========================================
+
+Engaging interactions
+
+![SocialBakers 4](images/social_bakers04.png)
+
+Only public available parameters are used (no reach, impressions, clicks)
+
+Simply Measured - 1
+=======================================
+
+![Simply Measured 1](images/simply_measured01.png)
+
+***
+
+## simplymeasured.com
+
+Facebook, Twitter, YouTube, Instagram, Google+, Tumblr, LinkedIn, Vine reports
+The End
+
+Simply Measured - 2
+=======================================
+
+![Simply Measured 3](images/simply_measured03.png)
+
+***
+
+There are different unrelated reports.
+
+Though some reports are quite interesting and exclusive.
+
+One needs to choose report type, specify dates, and get the report.
+
+It's possible to schedule reports.
+
+Simply Measured - 3
+=======================================
+
+## Any report could be exported to .xls or .ppt file.
+
+![Simply Measured 2](images/simply_measured02.png)
+
+uberVU - 1
+=======================================
+
+## Used as a part of Hoot Suite CRM
+
+![uberVU 1](images/ubervu01.jpg)
+
+uberVU - 2
+=======================================
+
+Engagement metrics, sentiment, geo and gender data.
+
+![uberVU 2](images/ubervu02.jpg)
+
+Klout - 1
+=======================================
+
+Measuring influence in social media.
+
+![Klout 1](images/klout01.png)
+
+Cumulative score on 0-100 scale.
+
+Klout - 2
+=======================================
+
+![Klout 2](images/klout02.png)
+
+Was broken a lot of times:
+
+* [Klout is broken](http://wewillraakyou.com/2010/12/klout-is-broken/)
+* [5 Reasons You Shouldn't Care About Your Klout Score](http://www.forbes.com/sites/erikkain/2012/04/26/5-reasons-you-shouldnt-care-about-your-klout-score/)
+* [A High Klout Score is Almost Useless](http://www.inboundmarketingagents.com/inbound-marketing-agents-blog/bid/201349/Top-7-Reasons-Why-Klout-is-Useless)
+
+Klout - 3
+========================================
+
+![Klout 3](images/klout03.png)
+
+Though it's steel widely used, and algorithm instantly updated.
+
+Moreover, there are some alternatives. Like [PeerIndex](http://peerindex.com).
+
+From Russia with love - 1
+========================================
+
+## [Nippel App](http://nippelapp.ru)
+
+![Nippel](images/nippel.png)
+
+From Russia with love - 2
+========================================
+
+## [Gravity tool](http://gravitytool.com)
+
+![Gravity](images/gravity.png)
+
+http://gravityagency.com
+
+From Russia with love - 3
+========================================
+
+![logo](images/amplifr02.png)
+
+https://amplifr.com
+
+![Amplifg](images/amplifr01.png)
+
+http://evilmartians.ru
+
+The End
+========================================================
+type: sub-section
+
+## Bonus Track
+
+[smapy - Social media anatomist for Python](http://sobach.github.io/smapy/)
+
+It's a python package. Meta-wrapper: open set of connectors.
+
+The main purpose is to bring to network data required similarity. There is no need to care about how alike concepts are called in different networks (i.e. "tweet" in Twitter, "status" in Facebook, or "post" in Livejournal), and what exactly endpoints you should use.

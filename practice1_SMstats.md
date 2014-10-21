@@ -1,0 +1,122 @@
+Lies, Damn Lies, and Metrics
+========================================================
+transition: rotate
+
+![Cover](images/practice1_cover.jpg)
+
+## Practice 1
+
+Ratings, Indexes
+========================================
+
+1. Public persons on social media rating
+
+2. KPIs: goals and achievements
+
+3. Our place on SM-market
+
+4. Etc. What else?
+
+Metrics (recall lecture)
+========================================
+type: sub-section
+
+## Key Metrics
+
+- Followers / Quazi-Reach
+- Reach / Impressions
+- Engagement Rate
+- People talking about
+- Social Media CTR
+
+***
+
+## Compound metrics
+
+- Activity sources
+- Cores and Ballast
+- Virality / Interestingness
+- Retention
+- Dynamics Cost
+
+Internal or External
+========================================
+type: sub-section
+
+## Internal
+
+Purpose: our own dynamics estimates, KPI
+
+\+ More metrics
+
+***
+
+## External
+
+Purpose: rating, or position on market
+
+\+ More data sources
+
+Single or Multiple Channels
+========================================
+type: sub-section
+
+## Mono-
+
+Purpose: compare multiple channels inside one SM-channel
+
+\+ More specific parameters
+
+***
+
+## Multiple-
+
+Purpose: building cumulative index
+
+\+ Closer to reality
+
+Summarization
+=====================================
+type: sub-section
+
+## Equal impact for every variable
+
+\+ Easier
+
+***
+
+## Weighted imact
+
+Requires expert knowledge
+
+\+ Closer to reality
+
+Blocks of variables
+====================================
+
+* **Reach**
+
+    Subscribers, Reach, Quazi-reach, Growing audience
+    
+* **Core**
+
+    Active commenters, reactors, k-cores, 
+
+***
+
+* **Engagement**
+    
+    Number of actions, weights for actions, ER
+    
+* **Retention**
+
+    Retention, Dynamics cost
+
+* **Content quality**
+
+    Interestingness
+    
+Let's Rock!
+==============================
+
+![Machine](images/BlueBallMachine.gif)
