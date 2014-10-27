@@ -298,13 +298,13 @@ Foreign systems
 =======================================================
 
 * [Sysomos](http://www.sysomos.com)
-* [Radioan6](https://login.radian6.com)
+* [Radian6](https://login.radian6.com)
 * [Crimson Hexagon](http://www.crimsonhexagon.com)
 
 Issues:
 
 * Language
-* CRM-specification
+* CRM-centered
 * Top-3 RU Social Media: VK, OK, MM
 
 The End
