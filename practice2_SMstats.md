@@ -1,0 +1,70 @@
+Build your own API
+========================================================
+transition: rotate
+
+![Kimono](images/kimono_logo.png)
+
+## Practice 2
+
+Download app
+==============================
+
+![kimono 1](images/kimono_1.png)
+
+Create accaunt on [Kimono Labs](https://www.kimonolabs.com)
+
+Starting app
+==============================
+
+* Look for icon in the browser
+
+![kimono 2](images/kimono_2.png)
+
+* Navigate to page, you are interested in, and press kimono icon
+
+Select parts of data
+==============================
+
+* For every property: Select examples
+
+![kimono 3](images/kimono_3.png)
+
+* Ferify or reject Kimono suggestions
+
+Look through gathered data
+==============================
+
+![kimono 4](images/kimono_4.png)
+
+Look through gathered data
+==============================
+
+![kimono 5](images/kimono_5.png)
+
+Name and tag your API
+==============================
+
+![kimono 6](images/kimono_6.png)
+
+Enjoy!
+==============================
+
+![kimono 8](images/kimono_8.png)
+
+There is an app for Google sheets
+=================================
+
+![kimono 9](images/kimono_9.png)
+
+![kimono 10](images/kimono_10.png)
+
+But pagination in R/Python is better
+=========================================
+
+### `https://www.kimonolabs.com/api/{page_id}/{api_id}?apikey={api_key}`
+
+
+It's your turn
+==============================
+
+![Machine](images/BlueBallMachine.gif)
