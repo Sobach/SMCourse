@@ -1,0 +1,339 @@
+Working with R
+========================================================
+transition: rotate
+
+![RStudio](images/RStudio-Ball.png)
+
+## Lecture 6
+
+What is R?
+=======================================================
+
+## R is a free software environment for statistical computing and graphics.
+
+History
+========================================================
+
+* 1976: In Bell Labs `S` language was created
+* 1988: Commercial version `S-PLUS` appeared
+* 1993: Fork `R` appeared
+* ~2000: `R` getting more and more popular
+
+Pure R
+=======================================================
+
+![Pure R](images/pure_r.png)
+
+RStudio IDE
+========================================================
+
+![RStudio](images/RStudio.png)
+
+CRAN & packages
+========================================================
+
+## Free software "tradition":
+
+* CTAN: Comprehensive TeX archive network
+* CRAN: Comprehensive R archive network
+* ...
+
+### Another sources:
+
+* Bioconductor
+* GitHub
+
+Main IDE frames
+===================================================
+
+### Editor
+
+Create and edit scripts
+
+In regular R: separate editors could be used.
+
+`Ctrl + Enter` to execute selected part
+
+## Console
+
+Main window:
+
+`> a <- 5 * 5`
+
+***
+
+### Environment
+
+All variables and types
+
+\+ Viewer
+
+### Help & plots
+
+In regular R:
+
+- help inside console
+- plots in separate windows
+
+Primitives
+=====================================
+
+```r
+# help on function
+?lm
+
+# math functions
+2 + 3
+10 / 3
+sqrt(9)
+
+# assigning
+a <- 'Hello, world!'
+```
+
+## Adding packages
+
+```r
+install.packages("ggplot2")
+library(ggplot2)
+require(ggplot2)
+```
+
+Working directory
+=====================================
+
+```{r}
+getwd()
+```
+
+```r
+# Set required WD
+setwd('C:/Documents/my_R_project')
+
+# Show files in current WD
+dir()
+
+# View raw file
+file.show()
+```
+
+Loading tables
+====================================
+
+```r
+read.table(fname)
+
+read.csv(fname)
+
+read.csv2(fname)
+
+read.delim(fname)
+
+read.delim2(fname)
+
+require(xlsx)
+read.xlsx(fname, sheetName)
+```
+
+Writing files
+====================================
+
+```r
+write.table
+
+write.csv
+
+write.csv2
+```
+
+Demo data
+====================================
+
+```{r}
+head(cars, 5)
+```
+
+```r
+iris
+mtcars
+Titanic
+# etc...
+```
+
+First graphic
+====================================
+
+```{r}
+plot(cars)
+```
+
+***
+
+```{r}
+hist(cars$speed)
+```
+
+Basic data types
+=======================================
+
+* Numeric `10.5` / Integer `10` / Complex `1 + 2i`
+* Factor
+
+```{r}
+factor(c('m', 'v', 'm', 'v', 'v'), levels = c('m', 'v'))
+```
+
+* logical `True (T) / False (F)`
+* character
+
+Missing & special data
+==========================================
+
+```{r}
+# NA
+vec <- c(3, 10, 8, NA, 5, 6)
+mean(vec)
+mean(vec, na.rm=T)
+```
+
+Missing & special data
+==========================================
+
+```{r}
+# Additional: NaN, Inf, and -Inf
+pi/0
+0/0
+as.logical(0/0)
+```
+
+Converting
+=====================================
+```{r}
+vec <- factor(c('1982', '1983', '1982', '1984', '1985'))
+```
+
+```{r}
+# Wrong
+as.numeric(vec)
+
+# Right
+as.numeric(as.character(vec))
+```
+
+Sequences - Vector
+======================================
+
+```{r}
+# concatenate
+vec <- c(TRUE, 1, 0.5, 'item')
+
+# vector elements should be of the same class
+class(vec)
+
+# slicing
+vec[3:4]
+```
+
+Sequences - Matrix
+=========================================
+
+```{r}
+v <- 1:9
+v
+dim(v) <- c(3,3)
+v
+```
+
+Sequences - List
+=======================================
+
+```{r}
+test.list <- list(i1 = TRUE, i2 = 1, i3 = 0.5, i4 = 'item')
+
+# every element is independent
+class(test.list)
+
+# slicing
+test.list[4]
+test.list$i4
+```
+
+Sequences - Data Frame
+========================================
+
+Imagine list of multiple vectors (columns):
+
+```{r}
+df <- data.frame(var1 = c('f', 'm', 'm', 'f'),
+                 var2 = c(1982, 1982, 1983, 1985),
+                 var3 = c(TRUE, FALSE, FALSE, FALSE))
+
+df
+```
+
+Data Frames Slicing
+==========================================
+
+```{r}
+nrow(iris)
+iris.filtered <- iris[iris$Species == 'setosa', ]
+nrow(iris.filtered)
+
+head(iris[, 'Species'])
+```
+
+Vectorized computations
+==========================================
+
+```{r}
+df <- data.frame(var1 = c(1, 2, 3, 4, 5, 6),
+                 var2 = c(10, 20, 30, 40, 50, 60))
+df$var3 <- df$var1 + df$var2
+df$var4 <- df$var1 * df$var2
+df
+```
+
+apply VS for
+===========================================
+
+```{r}
+#head(trees, 3)
+apply(trees, 2, mean)
+for(row in names(trees)){
+  print(paste(row, mean(trees[, row])))
+}
+```
+
+Basic functions for stat analysis
+============================================
+
+```r
+mean()
+median()
+sd()
+var() # sd() ^ 2
+```
+
+Your own functions
+============================================
+
+```{r}
+square <- function(vec)
+{
+  vec <- vec ^ 2
+  return(vec)
+}
+
+my.vec <- c(1,2,3,4,5)
+square(my.vec)
+```
+
+The End
+========================================================
+type: sub-section
+
+## Questions & answers
+
+http://www.r-tutor.com/elementary-statistics/qualitative-data/frequency-distribution-qualitative-data
+
+http://www.statmethods.net/advstats/factor.html
