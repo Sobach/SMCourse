@@ -1,3 +1,6 @@
+---
+output: word_document
+---
 Social Media & Blogs 
 ========================================================
 transition: rotate

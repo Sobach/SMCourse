@@ -1,3 +1,6 @@
+---
+output: pdf_document
+---
 Working with R
 ========================================================
 transition: rotate
