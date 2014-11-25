@@ -1,0 +1,385 @@
+Ad-hoc tools
+========================================================
+transition: rotate
+
+![RStudio](images/infogram.jpg)
+
+## Lecture 8
+
+Visualisation beyond Excel
+========================================================
+type: sub-section
+
+![Visualisation geometries](images/vis_geom.png)
+
+Visualisation beyond Excel
+========================================================
+type: sub-section
+
+![Bar chart](images/dumb_bars.jpeg)
+
+Stream graph
+========================================================
+
+Geometry in `d3.js`
+
+![Stream](images/ObamaDNC2008_sg.png)
+
+Issues:
+* too noisy
+* exacting to data
+
+Maps
+========================================================
+
+![Maps](images/ruschor.png)
+
+Issues:
+* different region sizes
+* Shape & distance doesn't matter (look for distorted maps)
+
+Density Maps
+========================================================
+
+![City Maps](images/ebbsflows.jpg)
+
+Wordcloud
+========================================================
+
+![Wordcloud](images/wordle3.jpg)
+
+Issues:
+* Size and tail doesn't matter
+* Wow-effect (especially when cloud is shaped)
+
+Networks
+========================================================
+
+![Network](images/football_g.jpg)
+
+Networks-2
+========================================================
+
+Issues:
+* Layouts:
+    - Force directed
+    - Fruchterman reingold
+    - Circular
+* Ball of fur
+
+Want to try? Use `Gephi`
+
+Alt: GraphVis
+
+Sunburst
+========================================================
+
+Pie chart $\rightarrow$ Donut $\rightarrow$ Sunburst
+
+![Sunburst](images/sunburst.png)
+
+Issues:
+* The same as for Piechart
+
+Treemap
+========================================================
+
+![Treemap](images/treemap1.png)
+
+* Slice and dice algorithm
+
+Treemap-2
+========================================================
+
+![Treemap](images/treemap2.jpg)
+
+Issues:
+* Pieces far from squares
+
+Treemap-3
+========================================================
+
+Voronoi-tesselation treemaps
+
+![Voronoi treemap](images/voronoi_treemap.jpg)
+
+Heatmap
+========================================================
+
+![Heatmap](images/heatmap.jpg)
+
+Heatmap
+========================================================
+
+Good for large data:
+
+![Volcano Heatmap](images/volcano.png)
+
+Heatmap
+========================================================
+
+Patterns in huge data
+
+![Riyadh Twitter](images/ramadan.jpg)
+
+Waterfall
+========================================================
+
+Widely used by McKinsey & Company
+
+![Waterfall](images/waterfall.jpg)
+
+Bullet chart
+========================================================
+
+Bar chart evolution
+
+![Waterfall](images/bullet_chart.png)
+
+![Waterfall](images/bullet2.png)
+
+Error bar
+========================================================
+
+![Errorbar](images/errorbar.png)
+
+Range
+========================================================
+
+Good for smoothing, confidence intervals
+
+![Range](images/range.png)
+
+Stock-charts (Candles, OHLC)
+========================================================
+
+![OHLC](images/ohlc.png)
+
+Stock-charts (Candles, OHLC)
+========================================================
+
+![OHLC](images/candlestick.jpg)
+
+Gauges
+========================================================
+
+![Gauges](images/gauge.png)
+
+Etc
+========================================================
+
+* Pictorals
+* Funnels
+* Calendar/table (kind of heatmap)
+* Chords
+* Bubbles ([NYT Bubbles](http://www.nytimes.com/interactive/2012/02/13/us/politics/2013-budget-proposal-graphic.html?_r=0))
+* Gantt charts
+* 'Spyders'
+
+Services
+========================================================
+type: sub-section
+
+![Mood'o'Meter](images/moodometer.jpg)
+
+***
+
+[Full size](images/moodometer.jpg)
+
+Infogr.am: https://infogr.am
+========================================================
+
+![Example](images/infogram_ex1.png)
+
+***
+
+![Example](images/infogram_ex2.png)
+
+Infogr.am
+=======================================================
+
+![Chart types](images/infogram_charts.png)
+
+***
+
+* Multiple chart types
+* Several themes
+* Only roll-type infographics
+* Freemium model
+
+Infogr.am prices
+=======================================================
+
+![Infogram price](images/infogram_price.png)
+
+Piktochart: http://piktochart.com
+========================================================
+
+![Templates](images/piktochart_templates.png)
+
+***
+
+* More like a canvas
+* Harder to start
+* More additional elements (icons, shapes, etc)
+* Freemium model
+* Better prices
+
+Piktochart prices
+========================================================
+
+![Piktochart price](images/piktochart_price.png)
+
+Capsidea
+========================================================
+
+## [https://capsidea.com](https://capsidea.com)
+
+* From Perm with love
+* Some sort of Tableau
+* Not for web-publishing
+* Today: raw
+
+Cloud Highcharts
+========================================================
+
+[http://cloud.highcharts.com](http://cloud.highcharts.com)
+
+![Logo](images/highcharts-logo.jpg)
+
+Few geoms: line/area, column/bar, scatter/bubble, pie
+
+But, hopefully, it will be developed
+
+Raw DensityDesign
+========================================================
+
+[http://raw.densitydesign.org](raw.densitydesign.org)
+
+Alternative approach: let's implement exotic geometries first
+
+![Raw treemap](images/raw_treemap.png)
+
+Raw DensityDesign
+========================================================
+
+[http://raw.densitydesign.org](raw.densitydesign.org)
+
+Bubbles, density, streams, treemaps
+
+![Raw flow](images/raw_flow.png)
+
+Wordle
+========================================================
+
+[http://www.wordle.net/](http://www.wordle.net/)
+
+The most well known wordcloud web application
+
+![Wordcloud](images/wordle3.jpg)
+
+Timeline
+========================================================
+
+[http://timeline.knightlab.com/](http://timeline.knightlab.com/)
+
+![Timeline](images/test_timeline.png)
+
+[Test timeline](http://cdn.knightlab.com/libs/timeline/latest/embed/index.html?source=0Agl_Dv6iEbDadHdKcHlHcTB5bzhvbF9iTWwyMmJHdkE&font=Bevan-PotanoSans&maptype=toner&lang=en&height=650)
+
+Google Charts
+========================================================
+
+![Google charts](images/google_charts.png)
+
+Google Charts
+========================================================
+
+    function drawChart() {
+      var data = google.visualization.arrayToDataTable([['Age','Weight'],[8,12],[4,5.5],[11,14],[4,5],[3,3.5],[6.5,7]]);
+      var options = {
+        title: 'Age vs. Weight comparison',
+        hAxis: {title: 'Age', minValue: 0, maxValue: 15},
+        vAxis: {title: 'Weight', minValue: 0, maxValue: 15}
+      };
+      var chart = new google.visualization.ScatterChart(document.getElementById('chart_div'));
+      chart.draw(data, options);
+    }
+
+Google Charts
+========================================================
+
+[Geometries](https://google-developers.appspot.com/chart/interactive/docs/gallery)
+
+Without JavaScript try it on Google Spreadsheets
+
+[https://docs.google.com/spreadsheets/](https://docs.google.com/spreadsheets/)
+
+Highcharts
+========================================================
+
+[http://www.highcharts.com/](http://www.highcharts.com/)
+
+![Highcharts](images/highcharts.png)
+
+Highcharts
+========================================================
+
+[http://www.highcharts.com/](http://www.highcharts.com/)
+
+Tree different apps:
+* Highcharts
+* Highstocks
+* Highmaps
+* TBD: 'Highgantt'
+
+Highcharts
+========================================================
+
+
+      $('#container').highcharts('StockChart', {
+          title : {
+              text : 'AAPL Stock Price'
+          },
+          series : [{
+              name : 'AAPL',
+              data : data,
+              tooltip: {
+                  valueDecimals: 2
+              }
+          }]
+      });
+
+Highcharts
+=======================================================
+
+View demo:
+
+* [http://www.highcharts.com/demo](http://www.highcharts.com/demo)
+* [http://www.highcharts.com/stock/demo](http://www.highcharts.com/stock/demo)
+* [http://www.highcharts.com/maps/demo](http://www.highcharts.com/maps/demo)
+* [https://nostromo.kaspersky.com](https://nostromo.kaspersky.com)
+
+d3.js
+========================================================
+
+## d3 = Data Driven Documents
+
+Connects data with DOM elements
+
+* [http://www.d3js.org](http://www.d3js.org)
+
+* [Gallery](https://github.com/mbostock/d3/wiki/Gallery)
+
+* [Starting tutorial](http://bost.ocks.org/mike/bar/)
+
+* [NYT Bubbles](http://www.nytimes.com/interactive/2012/02/13/us/politics/2013-budget-proposal-graphic.html?_r=0)
+
+d3.js my attempts
+========================================================
+
+[http://quatsch.pythonanywhere.com/locality/8c6edcef7955444b34269a8685b9b0dd](http://quatsch.pythonanywhere.com/locality/8c6edcef7955444b34269a8685b9b0dd)
+
+[http://quatsch.pythonanywhere.com/stats_detail/8c6edcef7955444b34269a8685b9b0dd](http://quatsch.pythonanywhere.com/stats_detail/8c6edcef7955444b34269a8685b9b0dd)
+
+[https://nostromo.kaspersky.com/vendors/](https://nostromo.kaspersky.com/vendors/)
