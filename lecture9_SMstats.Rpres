@@ -139,6 +139,13 @@ type: sub-section
 
 ## Every measurement will be attacked.
 
+Detecting bots
+=======================================================
+
+## How to measure?
+
+![Error types](images/errortypes.png)
+
 Detecting technics
 ========================================================
 
